@@ -5,6 +5,7 @@ var http = require('http'),
 /* Global variables */
 var listingData, server;
 
+// This line of code is used to read the file 'listings.json' and save the data in the variable listingData
 var requestHandler = function(request, response) {
 
   // Sends listingData in JSON format if a GET request is sent to the '/listings' path
@@ -30,12 +31,15 @@ var requestHandler = function(request, response) {
     https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177
     
     HINT: Explore how callback's work 
+    Callbacks are functions that can be passed as arguments to other functions.
     http://www.theprojectspot.com/tutorial-post/nodejs-for-beginners-callbacks/4
     
     HINT: Explore the list of MIME Types
+    MIME (Multipurpose Internet Mail Extensions) types are used to specify the type of content being sent
     https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types
    
     HINT: Explore mdn web docs for resources on how to use javascript.
+
     Helpful example: if-else structure- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
 
     */
