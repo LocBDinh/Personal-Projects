@@ -14,15 +14,15 @@ Introducing **BirthdayBeacon**, your personal celebration assistant that illumin
 
 ## Project Status
 **Development Stage**
->Currently working to build a fully functional app using **React.js**, **CSS w/ BootStrap**, **Node.js**, and **PostgreSQL**
+>Currently working to build a fully functional app using **React.js**, **CSS w/ BootStrap**, **Node.js**, and **MongoDB**
 
 #### How to Use:
 
 This project is currently in development. Users can add Birthdays of loved ones and assign special notes to loved ones, such as their shoe size, for seamless gift planning.
 
-## Project Screen Shot(s)
+## Project Wireframes
 
-#### Example:   
+#### Examples:   
 
 [ INSERT SCREEN SHOT HERE ]
 
@@ -36,8 +36,8 @@ This project is currently in development. Users can add Birthdays of loved ones 
 
 ### Installation Guide:
 
+`npm create vite@latest birthday-beacon --template react`\
 `npm install`  
-`npm create vite@latest birthday-beacon --template react`
 
 ### To Run Test Suite:
 
