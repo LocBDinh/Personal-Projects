@@ -3,9 +3,10 @@
 
 ## Directory
  1. [Birthday Beacon](/BirthdayBeacon/README.md): MongoDB, React.js, Bootstrap, Node.js
- 2. [SWE BootCamp 1](/BootCamp1/server.js): Node.js, PostgreSQL
- 3. [SWE BootCamp 2](/BootCamp2/BootCamp2.md): PostgreSQL w/ Sequelize, Javascript
- 4. [SWE BootCamp 3](/BootCamp3/BootCamp3.md): React.js, CSS, Bootstrap
+ 2. [LeagueAnalysis](/LeagueAnalysis/README.md): Python, Riot API
+ 3. [SWE BootCamp 1](/BootCamp1/server.js): Node.js, PostgreSQL
+ 4. [SWE BootCamp 2](/BootCamp2/BootCamp2.md): PostgreSQL w/ Sequelize, Javascript
+ 5. [SWE BootCamp 3](/BootCamp3/BootCamp3.md): React.js, CSS, Bootstrap
 
  ## Purpose
  This repository serves as a directory that helps you easily navigate through my personal projects and view the various projects as well as Bootcamps I have participated in. Through this GitHub I hope to showcase the dedication I have to expanding my skillset in Software Engineering and similar fields.
