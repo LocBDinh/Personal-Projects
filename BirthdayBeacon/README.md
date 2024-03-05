@@ -9,12 +9,12 @@ Introducing **BirthdayBeacon**, your personal celebration assistant that illumin
 2. 🎨 [Styling](docs/styling.md)
 3. 🏛️ [Architecture](docs/architecture.md)
 4. 🔍 [React Basics](docs/react-basics.md)
-5. 📝 [Bootstrap 5 Documentation](docs/bootstrap-guide.md)
+5. 📝 [Tailwind Documentation](docs/tailwind.md)
 6. 🍃 [MongoDB Documentation](https://www.mongodb.com/docs/drivers/node/current/)
 
 ## Project Status
 **Development Stage**
->Currently working to build a fully functional app using **React.js**, **CSS w/ Tailwind**, **Node.js**, and **MongoDB**
+>Currently working to build a fully functional app using **React.js**, **Tailwind CSS**, **Node.js**, and **MongoDB**
 
 #### How to Use:
 
@@ -47,7 +47,7 @@ This project is currently in development. Users can add Birthdays of loved ones 
 
 ### Starting the Server:
 
-`http://localhost:1337`
+`http://localhost:{PORT}`
 
 ### To Visit App:
 
