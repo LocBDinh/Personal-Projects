@@ -14,7 +14,7 @@ Introducing **BirthdayBeacon**, your personal celebration assistant that illumin
 
 ## Project Status
 **Development Stage**
->Currently working to build a fully functional app using **React.js**, **CSS w/ BootStrap**, **Node.js**, and **MongoDB**
+>Currently working to build a fully functional app using **React.js**, **CSS w/ Tailwind**, **Node.js**, and **MongoDB**
 
 #### How to Use:
 
@@ -34,18 +34,20 @@ This project is currently in development. Users can add Birthdays of loved ones 
 
 - You will need `node` and `npm` installed globally on your machine.
 
-### Installation Guide:
+### How it was Setup using Vite:
 
-`npm create vite@latest birthday-beacon --template react`\
+`npm create vite@latest frontend --template react`\
 `npm install`  
 
 ### To Run Test Suite:
-
+*Make sure to be in the parent directory of the server.js in order to run*:\
+`npm run dev`\
+*Now enter the frontend directory and run*:\
 `npm run dev`
 
 ### Starting the Server:
 
-`http://localhost:5173`
+`http://localhost:1337`
 
 ### To Visit App:
 
