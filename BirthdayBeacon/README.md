@@ -5,12 +5,11 @@ Introducing **BirthdayBeacon**, your personal celebration assistant that illumin
 
 ## Useful Documents
 
-1. 💡 [Frontend Introduction](docs/introduction.md)
-2. 🎨 [Styling](docs/styling.md)
-3. 🏛️ [Architecture](docs/architecture.md)
-4. 🔍 [React Basics](docs/react-basics.md)
-5. 📝 [Tailwind Documentation](docs/tailwind.md)
-6. 🍃 [MongoDB Documentation](https://www.mongodb.com/docs/drivers/node/current/)
+1. 🎨 [Styling](https://v2.tailwindcss.com/docs)
+2. 🏛️ [Architecture](docs/architecture.md)
+3. 🔍 [React Basics](docs/react-basics.md)
+4. 📝 [Tailwind Documentation](docs/tailwind.md)
+5. 🍃 [MongoDB Documentation](https://www.mongodb.com/docs/drivers/node/current/)
 
 ## Project Status
 **Development Stage**
