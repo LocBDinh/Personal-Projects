@@ -2,7 +2,7 @@
 >Hello, I am Loc Dinh, a Computer Science Major at the University of Florida with an expected graduation in May 2025. I am looking to gain experience in Full-Stack Web Development, but I am also very interested in opportunities to learn more about Cloud Architecture with AWS, Diversity and Inclusion, and Product Management. I am looking for a 2024 Summer Internship Opportunity for SWE.
 
 ## Directory
- 1. [Birthday Beacon](/BirthdayBeacon/README.md): MongoDB, React.js, Bootstrap, Node.js
+ 1. [Birthday Beacon](/BirthdayBeacon/README.md): MongoDB, React.js, Tailwind CSS, Node.js
  2. [LeagueAnalysis](/LeagueAnalysis/README.md): Python, Riot API
  3. [SWE BootCamp 1](/BootCamp1/server.js): Node.js, PostgreSQL
  4. [SWE BootCamp 2](/BootCamp2/BootCamp2.md): PostgreSQL w/ Sequelize, Javascript

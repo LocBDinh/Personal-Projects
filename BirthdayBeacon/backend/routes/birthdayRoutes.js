@@ -32,10 +32,29 @@ router.post('/', async (request, response) => {
 router.get('/', async (request, response) => {
     try {
         const birthdays = await Birthday.find({});
+        /* Format the schema to be more readable */
+        const formattedSchema = birthdays.map(birthday => {
+            /* Format the birthdate */
+            const date = new Date(birthday.birthdate);
+            const month = date.toLocaleString('default', { month: 'long' });
+            const day = date.getDate();
+            const year = date.getFullYear();
+            /* Format the phone number */
+            const number = birthday.phone;
+            const areaCode = number.slice(0, 3);
+            const prefix = number.slice(3, 6);
+            const lineNumber = number.slice(6, 10);
+            return {
+            ...birthday.toObject(),
+            birthdate: `${month} ${day}, ${year}`,
+            phone: `(${areaCode}) ${prefix}-${lineNumber}`
+            };
+        });
+        /* Return the formatted birthdays */
         return response.status(200).json({
-            count: birthdays.length,
-            data: birthdays
-    });
+            count: formattedSchema.length,
+            data: formattedSchema
+        });
     } catch (error) {
         console.log(error.message);
         response.status(500).send({message: error.message});

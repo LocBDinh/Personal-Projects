@@ -1,5 +1,6 @@
 # 🎂BirthdayBeacon🎂
 **An intuitive birthday tracking application that keeps you connected and never lets you miss a special day. Effortlessly manage celebrations and cherish moments with your loved ones.**\
+
 Have you ever struggled to remember all the important birthdays of your loved ones and friends? What if there was a magical beacon that could remind you just in time to celebrate and make every birthday memorable?\
 Introducing **BirthdayBeacon**, your personal celebration assistant that illuminates the path to unforgettable moments. Say goodbye to those late happy birthday texts and hello to seamless, heartfelt celebrations. Let **BirthdayBeacon** guide you through a world of joyous connections and thoughtful gestures.
 

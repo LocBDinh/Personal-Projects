@@ -1,7 +1,6 @@
 import express, { response } from 'express';
 import { PORT, mongodbURL } from './config.js';
 import mongoose from 'mongoose';
-import { Birthday } from './models/birthModels.js';
 import birthdayRoutes from './routes/birthdayRoutes.js';
 import cors from 'cors';
 
@@ -14,11 +13,11 @@ app.get('/', (request, response) => {
   return response.status(200).send('Welcome to the Birthday Beacon API!');
 });
 
+/* CORS policy: Middleware enabling CORS for all routes */
+app.use(cors());
+
 /* Connects the router to the server */
 app.use('/birthdays', birthdayRoutes);
-
-/* CORS policy */
-app.use(cors());
 
 /* Sets up database connection */
 mongoose
