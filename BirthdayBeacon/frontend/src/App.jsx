@@ -11,7 +11,7 @@ import DeleteBirthday from './pages/DeleteBirthday';
 const App = () => {
   return (
     <Routes>
-      <Route path='/home' element={<Home />} />
+      <Route path='/Home' element={<Home />} />
       <Route path='/birthdays/create' element={<CreateBirthday />} />
       <Route path='/birthdays/details/:id' element={<ShowProfile />} />
       <Route path='/birthdays/edit/:id' element={<EditProfile />} />

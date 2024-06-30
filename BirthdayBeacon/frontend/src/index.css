@@ -3,13 +3,17 @@
 @tailwind utilities;
 
 .border-primary {
-
+    border-width: 1px;
+    border-radius: 0.35rem;
+    --tw-border-opacity: 1;
+    border-color: rgb(71 85 105 / var(--tw-border-opacity));
+    box-shadow: 0 0 0.35rem rgb(71 85 105 / 0.7);
 }
 
-.button-primary {
-
-}
-
-.onHover {
-
+.border-table {
+    text-align: center;
+    border-width: 1px;
+    border-radius: 0.35rem;
+    --tw-border-opacity: 1;
+    border-color: rgb(51 65 85 / var(--tw-border-opacity));
 }

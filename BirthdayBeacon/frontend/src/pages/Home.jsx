@@ -49,21 +49,21 @@ const Home = () => {
         <table className='w-full border-separate border-spacing-2'>
           <thead>
             <tr>
-              <th className='border border-slate-600 rounded-md'>No</th>
-              <th className='border border-slate-600 rounded-md'>Name</th>
-              <th className='border border-slate-600 rounded-md'>Birthdate</th>
-              <th className='border border-slate-600 rounded-md'>Phone Number</th>
-              <th className='border border-slate-600 rounded-md'>Actions</th>
+              <th className='border-primary'>No</th>
+              <th className='border-primary'>Name</th>
+              <th className='border-primary'>Birthdate</th>
+              <th className='border-primary'>Phone Number</th>
+              <th className='border-primary'>Actions</th>
             </tr>
           </thead>
           <tbody>
             {birthdays.map((birthday, idx) => (
-              <tr key={birthday._id} className='h-8'>
-                <td className='border border-slate-700 rounded-md text-center'>{idx + 1}</td>
-                <td className='border border-slate-700 rounded-md text-center'>{birthday.name}</td>
-                <td className='border border-slate-700 rounded-md text-center'>{birthday.birthdate}</td>
-                <td className='border border-slate-700 rounded-md text-center'>{birthday.phone}</td>
-                <td className='border border-slate-700 rounded-md text-center'>
+              <tr key={birthday._id} className='h-9'>
+                <td className='border-table'>{idx + 1}</td>
+                <td className='border-table'>{birthday.name}</td>
+                <td className='border-table'>{birthday.birthdate}</td>
+                <td className='border-table'>{birthday.phone}</td>
+                <td className='border-table'>
                   <div className='flex justify-center gap-x-4'>
                     <button onClick={() => handleSelectBirthday(birthday)}>
                       <BsInfoCircle className='text-2xl text-blue-400' />
@@ -89,7 +89,8 @@ const Home = () => {
             <h2>{selectedBirthday.name}</h2>
             <p>Birthdate: {selectedBirthday.birthdate}</p>
             <p>Phone Number: {selectedBirthday.phone}</p>
-            <button className='border border-slate-700 rounded-md text-red-500' style={{width : 50, height : 25}}onClick={handleClosePopup}>Close</button>
+            <button className='ring-offset-2 ring-2 ring-red-600 bg-red-400  
+                   ring-opacity-25 w-20 h-6 rounded-md' onClick={handleClosePopup}>Close</button>
           </div>
         </div>
       )}
