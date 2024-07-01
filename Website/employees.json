@@ -1,0 +1,53 @@
+{
+    "employee_data": [
+        {
+            "id": "0",
+            "name": "Tri Nguyen",
+            "email": "TriNguyen@gmail.com",
+            "position": "CEO",
+            "salary": 250000
+        },
+        {
+            "id": "1",
+            "name": "Loc Dinh",
+            "email": "LocDinh@gmail.com",
+            "position": "Software Developer",
+            "salary": 0
+        },
+        {
+            "id": "2",
+            "name": "Tyler Nguyen",
+            "email": "TylerNguyen@gmail.com",
+            "position": "Software Developer",
+            "salary": 0
+        },
+        {
+            "id": "3",
+            "name": "Alex Baiamonte",
+            "email": "AlexBaiamonte@gmail.com",
+            "position": "Software Developer",
+            "salary": 0
+        },
+        {
+            "id": "4",
+            "name": "John Doe",
+            "email": "JohnDoe@gmail.com",
+            "position": "Software Developer",
+            "salary": "0"
+        },
+        {
+            "id": "5",
+            "name": "Bob Smith",
+            "email": "BobSmith@gmail.com",
+            "position": "Software Developer",
+            "salary": "0"
+        },
+        {
+            "id": 6,
+            "name": "John Snow",
+            "email": "JohnSnow@gmail.com",
+            "position": "Project Manager",
+            "salary": "0"
+        }
+    ]
+}
