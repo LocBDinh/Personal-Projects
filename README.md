@@ -1,5 +1,5 @@
 # Personal-Projects
->Hello, I am Loc Dinh, a Computer Science Major at the University of Florida with an expected graduation in May 2025. I am looking to gain experience in Full-Stack Web Development, but I am also very interested in opportunities to learn more about Cloud Architecture with AWS, Diversity and Inclusion, and Product Management. I am looking for a 2024 Summer Internship Opportunity for SWE.
+>Hello, I am Loc Dinh, a Computer Science Major at the University of Florida with an expected graduation in 2025. I am looking to gain experience in Full-Stack Web Development, but I am also very interested in opportunities to learn more about Cloud Architecture with AWS, Diversity and Inclusion, and Product Management. I am looking for a 2024 Summer Internship Opportunity for SWE.
 
 - 🔭 I’m currently working on [NeuroStock Forecast](https://github.com/LocBDinh/NeuroStock-Forecast) and [Birthday Beacon](/BirthdayBeacon/README.md)
 - 🌱 I’m currently learning **Cloud Architecture with AWS, Linux, and Machine Learning Models**
